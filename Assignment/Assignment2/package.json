@@ -1,0 +1,22 @@
+{
+  "name": "prompttest",
+  "version": "1.0.0",
+  "description": "prompttest",
+  "main": "averageDemo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sowmyapriya01/JavaScript-Assignments.git#master"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sowmyapriya01/JavaScript-Assignments/issues"
+  },
+  "homepage": "https://github.com/Sowmyapriya01/JavaScript-Assignments/tree/master#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
