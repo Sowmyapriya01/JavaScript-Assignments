@@ -1,12 +1,10 @@
-// Adding library
-const promptDemo = require("prompt-sync")();
-let count = parseInt(promptDemo("Total count "));
-let num1 = parseInt(promptDemo("Enter 1st number "));
-let num2 = parseInt(promptDemo("Enter 2nd number "));
-let num3 = parseInt(promptDemo("Enter 3rd number "));
-let num4 = parseInt(promptDemo("Enter 4th number "));
-let num5 = parseInt(promptDemo("Enter 5th number "));
+let promptDemo = require("prompt-sync")()
+let num1 = parseInt(promptDemo("Enter 1st num "))
+let num2 = parseInt(promptDemo("Enter 2nd num "))
+let num3 = parseInt(promptDemo("Enter 3rd num "))
+let num4 = parseInt(promptDemo("Enter 4th num "))
+let num5 = parseInt(promptDemo("Enter 5th num "))
 
-let Average = (num1 + num2 + num3 + num4 + num5) / count;
-console.log("Average of entered number is ", Average);
+let sum = num1+num2+num3+num4+num5
 
+console.log("Sum of all the number is ",sum);
